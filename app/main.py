@@ -1,12 +1,19 @@
-from fastapi import FastAPI, Response
+from fastapi import FastAPI, Response, HTTPException
 from prometheus_client import generate_latest, CONTENT_TYPE_LATEST
-from .shopify import fetch_orders
+from .shopify import fetch_orders, fetch_order_by_id
 
 app = FastAPI()
 
 @app.get("/orders")
 async def get_shopify_orders():
     return await fetch_orders()
+
+@app.get("/orders/{order_id}")
+async def get_shopify_order(order_id: int):
+    order = await fetch_order_by_id(order_id)
+    if not order:
+        raise HTTPException(status_code=404, detail="Order not found")
+    return order
 
 @app.get("/metrics")
 def metrics():

@@ -1,0 +1,2721 @@
+{
+  "orders": [
+    {
+      "id": 6543472066653,
+      "admin_graphql_api_id": "gid://shopify/Order/6543472066653",
+      "app_id": 257352433665,
+      "browser_ip": null,
+      "buyer_accepts_marketing": false,
+      "cancel_reason": null,
+      "cancelled_at": null,
+      "cart_token": null,
+      "checkout_id": null,
+      "checkout_token": null,
+      "client_details": null,
+      "closed_at": null,
+      "company": null,
+      "confirmation_number": "ZV56XW98E",
+      "confirmed": true,
+      "contact_email": "emma.walker@example.com",
+      "created_at": "2025-06-16T10:41:10-04:00",
+      "currency": "INR",
+      "current_subtotal_price": "105.00",
+      "current_subtotal_price_set": {
+        "shop_money": {
+          "amount": "105.00",
+          "currency_code": "INR"
+        },
+        "presentment_money": {
+          "amount": "105.00",
+          "currency_code": "INR"
+        }
+      },
+      "current_total_additional_fees_set": null,
+      "current_total_discounts": "0.00",
+      "current_total_discounts_set": {
+        "shop_money": {
+          "amount": "0.00",
+          "currency_code": "INR"
+        },
+        "presentment_money": {
+          "amount": "0.00",
+          "currency_code": "INR"
+        }
+      },
+      "current_total_duties_set": null,
+      "current_total_price": "105.00",
+      "current_total_price_set": {
+        "shop_money": {
+          "amount": "105.00",
+          "currency_code": "INR"
+        },
+        "presentment_money": {
+          "amount": "105.00",
+          "currency_code": "INR"
+        }
+      },
+      "current_total_tax": "0.00",
+      "current_total_tax_set": {
+        "shop_money": {
+          "amount": "0.00",
+          "currency_code": "INR"
+        },
+        "presentment_money": {
+          "amount": "0.00",
+          "currency_code": "INR"
+        }
+      },
+      "customer_locale": null,
+      "device_id": null,
+      "discount_codes": [],
+      "duties_included": false,
+      "email": "emma.walker@example.com",
+      "estimated_taxes": false,
+      "financial_status": "paid",
+      "fulfillment_status": "partial",
+      "landing_site": null,
+      "landing_site_ref": null,
+      "location_id": null,
+      "merchant_business_entity_id": null,
+      "merchant_of_record_app_id": null,
+      "name": "#1020",
+      "note": null,
+      "note_attributes": [],
+      "number": 20,
+      "order_number": 1020,
+      "order_status_url": "https://techwithpatil.myshopify.com/69385617501/orders/57462bf16d9cf15e144e19707eed9b10/authenticate?key=8b59bd6bb2e7ac74081a8a34b33249a7",
+      "original_total_additional_fees_set": null,
+      "original_total_duties_set": null,
+      "payment_gateway_names": [],
+      "phone": null,
+      "po_number": null,
+      "presentment_currency": "INR",
+      "processed_at": "2025-06-08T12:45:00-04:00",
+      "reference": null,
+      "referring_site": null,
+      "source_identifier": null,
+      "source_name": "257352433665",
+      "source_url": null,
+      "subtotal_price": "105.00",
+      "subtotal_price_set": {
+        "shop_money": {
+          "amount": "105.00",
+          "currency_code": "INR"
+        },
+        "presentment_money": {
+          "amount": "105.00",
+          "currency_code": "INR"
+        }
+      },
+      "tags": "",
+      "tax_exempt": false,
+      "tax_lines": [],
+      "taxes_included": false,
+      "test": false,
+      "token": "57462bf16d9cf15e144e19707eed9b10",
+      "total_cash_rounding_payment_adjustment_set": {
+        "shop_money": {
+          "amount": "0.00",
+          "currency_code": "INR"
+        },
+        "presentment_money": {
+          "amount": "0.00",
+          "currency_code": "INR"
+        }
+      },
+      "total_cash_rounding_refund_adjustment_set": {
+        "shop_money": {
+          "amount": "0.00",
+          "currency_code": "INR"
+        },
+        "presentment_money": {
+          "amount": "0.00",
+          "currency_code": "INR"
+        }
+      },
+      "total_discounts": "0.00",
+      "total_discounts_set": {
+        "shop_money": {
+          "amount": "0.00",
+          "currency_code": "INR"
+        },
+        "presentment_money": {
+          "amount": "0.00",
+          "currency_code": "INR"
+        }
+      },
+      "total_line_items_price": "105.00",
+      "total_line_items_price_set": {
+        "shop_money": {
+          "amount": "105.00",
+          "currency_code": "INR"
+        },
+        "presentment_money": {
+          "amount": "105.00",
+          "currency_code": "INR"
+        }
+      },
+      "total_outstanding": "105.00",
+      "total_price": "105.00",
+      "total_price_set": {
+        "shop_money": {
+          "amount": "105.00",
+          "currency_code": "INR"
+        },
+        "presentment_money": {
+          "amount": "105.00",
+          "currency_code": "INR"
+        }
+      },
+      "total_shipping_price_set": {
+        "shop_money": {
+          "amount": "0.00",
+          "currency_code": "INR"
+        },
+        "presentment_money": {
+          "amount": "0.00",
+          "currency_code": "INR"
+        }
+      },
+      "total_tax": "0.00",
+      "total_tax_set": {
+        "shop_money": {
+          "amount": "0.00",
+          "currency_code": "INR"
+        },
+        "presentment_money": {
+          "amount": "0.00",
+          "currency_code": "INR"
+        }
+      },
+      "total_tip_received": "0.00",
+      "total_weight": 0,
+      "updated_at": "2025-06-16T10:42:51-04:00",
+      "user_id": null,
+      "billing_address": null,
+      "customer": {
+        "id": 8466632802397,
+        "email": "emma.walker@example.com",
+        "created_at": "2025-06-16T10:41:10-04:00",
+        "updated_at": "2025-06-16T10:41:11-04:00",
+        "first_name": "Emma",
+        "last_name": "Walker",
+        "state": "disabled",
+        "note": null,
+        "verified_email": true,
+        "multipass_identifier": null,
+        "tax_exempt": false,
+        "phone": null,
+        "email_marketing_consent": {
+          "state": "not_subscribed",
+          "opt_in_level": "single_opt_in",
+          "consent_updated_at": null
+        },
+        "sms_marketing_consent": null,
+        "tags": "",
+        "currency": "INR",
+        "tax_exemptions": [],
+        "admin_graphql_api_id": "gid://shopify/Customer/8466632802397",
+        "default_address": {
+          "id": 9291281727581,
+          "customer_id": 8466632802397,
+          "first_name": "Emma",
+          "last_name": "Walker",
+          "company": null,
+          "address1": "400 Main St",
+          "address2": null,
+          "city": "Dublin",
+          "province": null,
+          "country": "Ireland",
+          "zip": "D02 X285",
+          "phone": "555-777-6666",
+          "name": "Emma Walker",
+          "province_code": null,
+          "country_code": "IE",
+          "country_name": "Ireland",
+          "default": true
+        }
+      },
+      "discount_applications": [],
+      "fulfillments": [],
+      "line_items": [
+        {
+          "id": 15177570058333,
+          "admin_graphql_api_id": "gid://shopify/LineItem/15177570058333",
+          "attributed_staffs": [],
+          "current_quantity": 1,
+          "fulfillable_quantity": 1,
+          "fulfillment_service": "manual",
+          "fulfillment_status": null,
+          "gift_card": false,
+          "grams": 0,
+          "name": "V-Neck T shirt",
+          "price": "25.00",
+          "price_set": {
+            "shop_money": {
+              "amount": "25.00",
+              "currency_code": "INR"
+            },
+            "presentment_money": {
+              "amount": "25.00",
+              "currency_code": "INR"
+            }
+          },
+          "product_exists": false,
+          "product_id": null,
+          "properties": [],
+          "quantity": 1,
+          "requires_shipping": true,
+          "sku": "HNS_COT_112",
+          "taxable": true,
+          "title": "V-Neck T shirt",
+          "total_discount": "0.00",
+          "total_discount_set": {
+            "shop_money": {
+              "amount": "0.00",
+              "currency_code": "INR"
+            },
+            "presentment_money": {
+              "amount": "0.00",
+              "currency_code": "INR"
+            }
+          },
+          "variant_id": null,
+          "variant_inventory_management": null,
+          "variant_title": null,
+          "vendor": null,
+          "tax_lines": [],
+          "duties": [],
+          "discount_allocations": []
+        },
+        {
+          "id": 15177570091101,
+          "admin_graphql_api_id": "gid://shopify/LineItem/15177570091101",
+          "attributed_staffs": [],
+          "current_quantity": 1,
+          "fulfillable_quantity": 1,
+          "fulfillment_service": "manual",
+          "fulfillment_status": null,
+          "gift_card": false,
+          "grams": 0,
+          "name": "Denim Jeans",
+          "price": "80.00",
+          "price_set": {
+            "shop_money": {
+              "amount": "80.00",
+              "currency_code": "INR"
+            },
+            "presentment_money": {
+              "amount": "80.00",
+              "currency_code": "INR"
+            }
+          },
+          "product_exists": false,
+          "product_id": null,
+          "properties": [],
+          "quantity": 1,
+          "requires_shipping": true,
+          "sku": "LVS_DEN_286",
+          "taxable": true,
+          "title": "Denim Jeans",
+          "total_discount": "0.00",
+          "total_discount_set": {
+            "shop_money": {
+              "amount": "0.00",
+              "currency_code": "INR"
+            },
+            "presentment_money": {
+              "amount": "0.00",
+              "currency_code": "INR"
+            }
+          },
+          "variant_id": null,
+          "variant_inventory_management": null,
+          "variant_title": null,
+          "vendor": null,
+          "tax_lines": [],
+          "duties": [],
+          "discount_allocations": []
+        }
+      ],
+      "payment_terms": null,
+      "refunds": [],
+      "shipping_address": {
+        "first_name": "Emma",
+        "address1": "400 Main St",
+        "phone": "555-777-6666",
+        "city": "Dublin",
+        "zip": "D02 X285",
+        "province": "Leinster",
+        "country": "Ireland",
+        "last_name": "Walker",
+        "address2": null,
+        "company": null,
+        "latitude": 53.2880386,
+        "longitude": -6.3617705,
+        "name": "Emma Walker",
+        "country_code": "IE",
+        "province_code": null
+      },
+      "shipping_lines": []
+    },
+    {
+      "id": 6543472001117,
+      "admin_graphql_api_id": "gid://shopify/Order/6543472001117",
+      "app_id": 257352433665,
+      "browser_ip": null,
+      "buyer_accepts_marketing": false,
+      "cancel_reason": null,
+      "cancelled_at": null,
+      "cart_token": null,
+      "checkout_id": null,
+      "checkout_token": null,
+      "client_details": null,
+      "closed_at": null,
+      "company": null,
+      "confirmation_number": "K0YM178TI",
+      "confirmed": true,
+      "contact_email": "lucas.harris@example.com",
+      "created_at": "2025-06-16T10:41:08-04:00",
+      "currency": "INR",
+      "current_subtotal_price": "70.00",
+      "current_subtotal_price_set": {
+        "shop_money": {
+          "amount": "70.00",
+          "currency_code": "INR"
+        },
+        "presentment_money": {
+          "amount": "70.00",
+          "currency_code": "INR"
+        }
+      },
+      "current_total_additional_fees_set": null,
+      "current_total_discounts": "0.00",
+      "current_total_discounts_set": {
+        "shop_money": {
+          "amount": "0.00",
+          "currency_code": "INR"
+        },
+        "presentment_money": {
+          "amount": "0.00",
+          "currency_code": "INR"
+        }
+      },
+      "current_total_duties_set": null,
+      "current_total_price": "70.00",
+      "current_total_price_set": {
+        "shop_money": {
+          "amount": "70.00",
+          "currency_code": "INR"
+        },
+        "presentment_money": {
+          "amount": "70.00",
+          "currency_code": "INR"
+        }
+      },
+      "current_total_tax": "0.00",
+      "current_total_tax_set": {
+        "shop_money": {
+          "amount": "0.00",
+          "currency_code": "INR"
+        },
+        "presentment_money": {
+          "amount": "0.00",
+          "currency_code": "INR"
+        }
+      },
+      "customer_locale": null,
+      "device_id": null,
+      "discount_codes": [],
+      "duties_included": false,
+      "email": "lucas.harris@example.com",
+      "estimated_taxes": false,
+      "financial_status": "paid",
+      "fulfillment_status": "restocked",
+      "landing_site": null,
+      "landing_site_ref": null,
+      "location_id": null,
+      "merchant_business_entity_id": null,
+      "merchant_of_record_app_id": null,
+      "name": "#1019",
+      "note": null,
+      "note_attributes": [],
+      "number": 19,
+      "order_number": 1019,
+      "order_status_url": "https://techwithpatil.myshopify.com/69385617501/orders/4c356e8d679da2d13ad73613cbd7fc12/authenticate?key=a6d8db3661f3823c16c996cde115c051",
+      "original_total_additional_fees_set": null,
+      "original_total_duties_set": null,
+      "payment_gateway_names": [],
+      "phone": null,
+      "po_number": null,
+      "presentment_currency": "INR",
+      "processed_at": "2025-06-09T10:15:00-04:00",
+      "reference": null,
+      "referring_site": null,
+      "source_identifier": null,
+      "source_name": "257352433665",
+      "source_url": null,
+      "subtotal_price": "70.00",
+      "subtotal_price_set": {
+        "shop_money": {
+          "amount": "70.00",
+          "currency_code": "INR"
+        },
+        "presentment_money": {
+          "amount": "70.00",
+          "currency_code": "INR"
+        }
+      },
+      "tags": "",
+      "tax_exempt": false,
+      "tax_lines": [],
+      "taxes_included": false,
+      "test": false,
+      "token": "4c356e8d679da2d13ad73613cbd7fc12",
+      "total_cash_rounding_payment_adjustment_set": {
+        "shop_money": {
+          "amount": "0.00",
+          "currency_code": "INR"
+        },
+        "presentment_money": {
+          "amount": "0.00",
+          "currency_code": "INR"
+        }
+      },
+      "total_cash_rounding_refund_adjustment_set": {
+        "shop_money": {
+          "amount": "0.00",
+          "currency_code": "INR"
+        },
+        "presentment_money": {
+          "amount": "0.00",
+          "currency_code": "INR"
+        }
+      },
+      "total_discounts": "0.00",
+      "total_discounts_set": {
+        "shop_money": {
+          "amount": "0.00",
+          "currency_code": "INR"
+        },
+        "presentment_money": {
+          "amount": "0.00",
+          "currency_code": "INR"
+        }
+      },
+      "total_line_items_price": "70.00",
+      "total_line_items_price_set": {
+        "shop_money": {
+          "amount": "70.00",
+          "currency_code": "INR"
+        },
+        "presentment_money": {
+          "amount": "70.00",
+          "currency_code": "INR"
+        }
+      },
+      "total_outstanding": "70.00",
+      "total_price": "70.00",
+      "total_price_set": {
+        "shop_money": {
+          "amount": "70.00",
+          "currency_code": "INR"
+        },
+        "presentment_money": {
+          "amount": "70.00",
+          "currency_code": "INR"
+        }
+      },
+      "total_shipping_price_set": {
+        "shop_money": {
+          "amount": "0.00",
+          "currency_code": "INR"
+        },
+        "presentment_money": {
+          "amount": "0.00",
+          "currency_code": "INR"
+        }
+      },
+      "total_tax": "0.00",
+      "total_tax_set": {
+        "shop_money": {
+          "amount": "0.00",
+          "currency_code": "INR"
+        },
+        "presentment_money": {
+          "amount": "0.00",
+          "currency_code": "INR"
+        }
+      },
+      "total_tip_received": "0.00",
+      "total_weight": 0,
+      "updated_at": "2025-06-16T10:42:57-04:00",
+      "user_id": null,
+      "billing_address": null,
+      "customer": {
+        "id": 8466632507485,
+        "email": "lucas.harris@example.com",
+        "created_at": "2025-06-16T10:41:08-04:00",
+        "updated_at": "2025-06-16T10:41:08-04:00",
+        "first_name": "Lucas",
+        "last_name": "Harris",
+        "state": "disabled",
+        "note": null,
+        "verified_email": true,
+        "multipass_identifier": null,
+        "tax_exempt": false,
+        "phone": null,
+        "email_marketing_consent": {
+          "state": "not_subscribed",
+          "opt_in_level": "single_opt_in",
+          "consent_updated_at": null
+        },
+        "sms_marketing_consent": null,
+        "tags": "",
+        "currency": "INR",
+        "tax_exemptions": [],
+        "admin_graphql_api_id": "gid://shopify/Customer/8466632507485",
+        "default_address": {
+          "id": 9291281465437,
+          "customer_id": 8466632507485,
+          "first_name": "Lucas",
+          "last_name": "Harris",
+          "company": null,
+          "address1": "50 Princes St",
+          "address2": null,
+          "city": "London",
+          "province": "England",
+          "country": "United Kingdom",
+          "zip": "EC1A 1BB",
+          "phone": "555-444-5555",
+          "name": "Lucas Harris",
+          "province_code": "ENG",
+          "country_code": "GB",
+          "country_name": "United Kingdom",
+          "default": true
+        }
+      },
+      "discount_applications": [],
+      "fulfillments": [],
+      "line_items": [
+        {
+          "id": 15177569960029,
+          "admin_graphql_api_id": "gid://shopify/LineItem/15177569960029",
+          "attributed_staffs": [],
+          "current_quantity": 1,
+          "fulfillable_quantity": 1,
+          "fulfillment_service": "manual",
+          "fulfillment_status": null,
+          "gift_card": false,
+          "grams": 0,
+          "name": "Cargo Pants",
+          "price": "70.00",
+          "price_set": {
+            "shop_money": {
+              "amount": "70.00",
+              "currency_code": "INR"
+            },
+            "presentment_money": {
+              "amount": "70.00",
+              "currency_code": "INR"
+            }
+          },
+          "product_exists": false,
+          "product_id": null,
+          "properties": [],
+          "quantity": 1,
+          "requires_shipping": true,
+          "sku": "LVS_DEN_285",
+          "taxable": true,
+          "title": "Cargo Pants",
+          "total_discount": "0.00",
+          "total_discount_set": {
+            "shop_money": {
+              "amount": "0.00",
+              "currency_code": "INR"
+            },
+            "presentment_money": {
+              "amount": "0.00",
+              "currency_code": "INR"
+            }
+          },
+          "variant_id": null,
+          "variant_inventory_management": null,
+          "variant_title": null,
+          "vendor": null,
+          "tax_lines": [],
+          "duties": [],
+          "discount_allocations": []
+        }
+      ],
+      "payment_terms": null,
+      "refunds": [],
+      "shipping_address": {
+        "first_name": "Lucas",
+        "address1": "50 Princes St",
+        "phone": "555-444-5555",
+        "city": "London",
+        "zip": "EC1A 1BB",
+        "province": "England",
+        "country": "United Kingdom",
+        "last_name": "Harris",
+        "address2": null,
+        "company": null,
+        "latitude": 51.4834074,
+        "longitude": -0.0273338,
+        "name": "Lucas Harris",
+        "country_code": "GB",
+        "province_code": "ENG"
+      },
+      "shipping_lines": []
+    },
+    {
+      "id": 6543471935581,
+      "admin_graphql_api_id": "gid://shopify/Order/6543471935581",
+      "app_id": 257352433665,
+      "browser_ip": null,
+      "buyer_accepts_marketing": false,
+      "cancel_reason": null,
+      "cancelled_at": null,
+      "cart_token": null,
+      "checkout_id": null,
+      "checkout_token": null,
+      "client_details": null,
+      "closed_at": null,
+      "company": null,
+      "confirmation_number": "WTQHLJR2H",
+      "confirmed": true,
+      "contact_email": "mia.clark@example.com",
+      "created_at": "2025-06-16T10:41:06-04:00",
+      "currency": "INR",
+      "current_subtotal_price": "50.00",
+      "current_subtotal_price_set": {
+        "shop_money": {
+          "amount": "50.00",
+          "currency_code": "INR"
+        },
+        "presentment_money": {
+          "amount": "50.00",
+          "currency_code": "INR"
+        }
+      },
+      "current_total_additional_fees_set": null,
+      "current_total_discounts": "0.00",
+      "current_total_discounts_set": {
+        "shop_money": {
+          "amount": "0.00",
+          "currency_code": "INR"
+        },
+        "presentment_money": {
+          "amount": "0.00",
+          "currency_code": "INR"
+        }
+      },
+      "current_total_duties_set": null,
+      "current_total_price": "50.00",
+      "current_total_price_set": {
+        "shop_money": {
+          "amount": "50.00",
+          "currency_code": "INR"
+        },
+        "presentment_money": {
+          "amount": "50.00",
+          "currency_code": "INR"
+        }
+      },
+      "current_total_tax": "0.00",
+      "current_total_tax_set": {
+        "shop_money": {
+          "amount": "0.00",
+          "currency_code": "INR"
+        },
+        "presentment_money": {
+          "amount": "0.00",
+          "currency_code": "INR"
+        }
+      },
+      "customer_locale": null,
+      "device_id": null,
+      "discount_codes": [],
+      "duties_included": false,
+      "email": "mia.clark@example.com",
+      "estimated_taxes": false,
+      "financial_status": "paid",
+      "fulfillment_status": null,
+      "landing_site": null,
+      "landing_site_ref": null,
+      "location_id": null,
+      "merchant_business_entity_id": null,
+      "merchant_of_record_app_id": null,
+      "name": "#1018",
+      "note": null,
+      "note_attributes": [],
+      "number": 18,
+      "order_number": 1018,
+      "order_status_url": "https://techwithpatil.myshopify.com/69385617501/orders/52bf53246f25014d9b7612dcacec3aba/authenticate?key=3e613c13e1d90e4344fa5e1d434d6fe2",
+      "original_total_additional_fees_set": null,
+      "original_total_duties_set": null,
+      "payment_gateway_names": [],
+      "phone": null,
+      "po_number": null,
+      "presentment_currency": "INR",
+      "processed_at": "2025-06-10T07:00:00-04:00",
+      "reference": null,
+      "referring_site": null,
+      "source_identifier": null,
+      "source_name": "257352433665",
+      "source_url": null,
+      "subtotal_price": "50.00",
+      "subtotal_price_set": {
+        "shop_money": {
+          "amount": "50.00",
+          "currency_code": "INR"
+        },
+        "presentment_money": {
+          "amount": "50.00",
+          "currency_code": "INR"
+        }
+      },
+      "tags": "",
+      "tax_exempt": false,
+      "tax_lines": [],
+      "taxes_included": false,
+      "test": false,
+      "token": "52bf53246f25014d9b7612dcacec3aba",
+      "total_cash_rounding_payment_adjustment_set": {
+        "shop_money": {
+          "amount": "0.00",
+          "currency_code": "INR"
+        },
+        "presentment_money": {
+          "amount": "0.00",
+          "currency_code": "INR"
+        }
+      },
+      "total_cash_rounding_refund_adjustment_set": {
+        "shop_money": {
+          "amount": "0.00",
+          "currency_code": "INR"
+        },
+        "presentment_money": {
+          "amount": "0.00",
+          "currency_code": "INR"
+        }
+      },
+      "total_discounts": "0.00",
+      "total_discounts_set": {
+        "shop_money": {
+          "amount": "0.00",
+          "currency_code": "INR"
+        },
+        "presentment_money": {
+          "amount": "0.00",
+          "currency_code": "INR"
+        }
+      },
+      "total_line_items_price": "50.00",
+      "total_line_items_price_set": {
+        "shop_money": {
+          "amount": "50.00",
+          "currency_code": "INR"
+        },
+        "presentment_money": {
+          "amount": "50.00",
+          "currency_code": "INR"
+        }
+      },
+      "total_outstanding": "50.00",
+      "total_price": "50.00",
+      "total_price_set": {
+        "shop_money": {
+          "amount": "50.00",
+          "currency_code": "INR"
+        },
+        "presentment_money": {
+          "amount": "50.00",
+          "currency_code": "INR"
+        }
+      },
+      "total_shipping_price_set": {
+        "shop_money": {
+          "amount": "0.00",
+          "currency_code": "INR"
+        },
+        "presentment_money": {
+          "amount": "0.00",
+          "currency_code": "INR"
+        }
+      },
+      "total_tax": "0.00",
+      "total_tax_set": {
+        "shop_money": {
+          "amount": "0.00",
+          "currency_code": "INR"
+        },
+        "presentment_money": {
+          "amount": "0.00",
+          "currency_code": "INR"
+        }
+      },
+      "total_tip_received": "0.00",
+      "total_weight": 0,
+      "updated_at": "2025-06-16T10:42:46-04:00",
+      "user_id": null,
+      "billing_address": null,
+      "customer": {
+        "id": 8466632114269,
+        "email": "mia.clark@example.com",
+        "created_at": "2025-06-16T10:41:06-04:00",
+        "updated_at": "2025-06-16T10:41:06-04:00",
+        "first_name": "Mia",
+        "last_name": "Clark",
+        "state": "disabled",
+        "note": null,
+        "verified_email": true,
+        "multipass_identifier": null,
+        "tax_exempt": false,
+        "phone": null,
+        "email_marketing_consent": {
+          "state": "not_subscribed",
+          "opt_in_level": "single_opt_in",
+          "consent_updated_at": null
+        },
+        "sms_marketing_consent": null,
+        "tags": "",
+        "currency": "INR",
+        "tax_exemptions": [],
+        "admin_graphql_api_id": "gid://shopify/Customer/8466632114269",
+        "default_address": {
+          "id": 9291281268829,
+          "customer_id": 8466632114269,
+          "first_name": "Mia",
+          "last_name": "Clark",
+          "company": null,
+          "address1": "200 George St",
+          "address2": null,
+          "city": "Sydney",
+          "province": "New South Wales",
+          "country": "Australia",
+          "zip": "2000",
+          "phone": "555-333-2222",
+          "name": "Mia Clark",
+          "province_code": "NSW",
+          "country_code": "AU",
+          "country_name": "Australia",
+          "default": true
+        }
+      },
+      "discount_applications": [],
+      "fulfillments": [],
+      "line_items": [
+        {
+          "id": 15177569861725,
+          "admin_graphql_api_id": "gid://shopify/LineItem/15177569861725",
+          "attributed_staffs": [],
+          "current_quantity": 2,
+          "fulfillable_quantity": 2,
+          "fulfillment_service": "manual",
+          "fulfillment_status": null,
+          "gift_card": false,
+          "grams": 0,
+          "name": "Ringer T-Shirt",
+          "price": "25.00",
+          "price_set": {
+            "shop_money": {
+              "amount": "25.00",
+              "currency_code": "INR"
+            },
+            "presentment_money": {
+              "amount": "25.00",
+              "currency_code": "INR"
+            }
+          },
+          "product_exists": false,
+          "product_id": null,
+          "properties": [],
+          "quantity": 2,
+          "requires_shipping": true,
+          "sku": "HNS_COT_111",
+          "taxable": true,
+          "title": "Ringer T-Shirt",
+          "total_discount": "0.00",
+          "total_discount_set": {
+            "shop_money": {
+              "amount": "0.00",
+              "currency_code": "INR"
+            },
+            "presentment_money": {
+              "amount": "0.00",
+              "currency_code": "INR"
+            }
+          },
+          "variant_id": null,
+          "variant_inventory_management": null,
+          "variant_title": null,
+          "vendor": null,
+          "tax_lines": [],
+          "duties": [],
+          "discount_allocations": []
+        }
+      ],
+      "payment_terms": null,
+      "refunds": [],
+      "shipping_address": {
+        "first_name": "Mia",
+        "address1": "200 George St",
+        "phone": "555-333-2222",
+        "city": "Sydney",
+        "zip": "2000",
+        "province": "New South Wales",
+        "country": "Australia",
+        "last_name": "Clark",
+        "address2": null,
+        "company": null,
+        "latitude": -33.8624587,
+        "longitude": 151.2076681,
+        "name": "Mia Clark",
+        "country_code": "AU",
+        "province_code": "NSW"
+      },
+      "shipping_lines": []
+    },
+    {
+      "id": 6528128909405,
+      "admin_graphql_api_id": "gid://shopify/Order/6528128909405",
+      "app_id": 1354745,
+      "browser_ip": "103.201.136.25",
+      "buyer_accepts_marketing": false,
+      "cancel_reason": null,
+      "cancelled_at": null,
+      "cart_token": null,
+      "checkout_id": 35530039525469,
+      "checkout_token": "f6978088a392faa7c4d978395a3bb1e9",
+      "client_details": {
+        "accept_language": null,
+        "browser_height": null,
+        "browser_ip": "103.201.136.25",
+        "browser_width": null,
+        "session_hash": null,
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:139.0) Gecko/20100101 Firefox/139.0"
+      },
+      "closed_at": null,
+      "company": null,
+      "confirmation_number": "0YWLG1HAU",
+      "confirmed": true,
+      "contact_email": null,
+      "created_at": "2025-06-07T12:13:54-04:00",
+      "currency": "INR",
+      "current_subtotal_price": "190.00",
+      "current_subtotal_price_set": {
+        "shop_money": {
+          "amount": "190.00",
+          "currency_code": "INR"
+        },
+        "presentment_money": {
+          "amount": "190.00",
+          "currency_code": "INR"
+        }
+      },
+      "current_total_additional_fees_set": null,
+      "current_total_discounts": "0.00",
+      "current_total_discounts_set": {
+        "shop_money": {
+          "amount": "0.00",
+          "currency_code": "INR"
+        },
+        "presentment_money": {
+          "amount": "0.00",
+          "currency_code": "INR"
+        }
+      },
+      "current_total_duties_set": null,
+      "current_total_price": "207.10",
+      "current_total_price_set": {
+        "shop_money": {
+          "amount": "207.10",
+          "currency_code": "INR"
+        },
+        "presentment_money": {
+          "amount": "207.10",
+          "currency_code": "INR"
+        }
+      },
+      "current_total_tax": "17.10",
+      "current_total_tax_set": {
+        "shop_money": {
+          "amount": "17.10",
+          "currency_code": "INR"
+        },
+        "presentment_money": {
+          "amount": "17.10",
+          "currency_code": "INR"
+        }
+      },
+      "customer_locale": "en",
+      "device_id": null,
+      "discount_codes": [],
+      "duties_included": false,
+      "email": "",
+      "estimated_taxes": false,
+      "financial_status": "paid",
+      "fulfillment_status": null,
+      "landing_site": null,
+      "landing_site_ref": null,
+      "location_id": 77556809821,
+      "merchant_business_entity_id": null,
+      "merchant_of_record_app_id": null,
+      "name": "#1012",
+      "note": null,
+      "note_attributes": [],
+      "number": 12,
+      "order_number": 1012,
+      "order_status_url": "https://techwithpatil.myshopify.com/69385617501/orders/c07cc210b1e240becb1fe273b7fb5d05/authenticate?key=1fabb7617b5137cc99483e5ab8d1b4e2",
+      "original_total_additional_fees_set": null,
+      "original_total_duties_set": null,
+      "payment_gateway_names": [
+        "manual"
+      ],
+      "phone": null,
+      "po_number": null,
+      "presentment_currency": "INR",
+      "processed_at": "2025-06-07T12:13:53-04:00",
+      "reference": null,
+      "referring_site": null,
+      "source_identifier": null,
+      "source_name": "shopify_draft_order",
+      "source_url": null,
+      "subtotal_price": "190.00",
+      "subtotal_price_set": {
+        "shop_money": {
+          "amount": "190.00",
+          "currency_code": "INR"
+        },
+        "presentment_money": {
+          "amount": "190.00",
+          "currency_code": "INR"
+        }
+      },
+      "tags": "",
+      "tax_exempt": false,
+      "tax_lines": [
+        {
+          "price": "17.10",
+          "rate": 0.09,
+          "title": "CGST",
+          "price_set": {
+            "shop_money": {
+              "amount": "17.10",
+              "currency_code": "INR"
+            },
+            "presentment_money": {
+              "amount": "17.10",
+              "currency_code": "INR"
+            }
+          },
+          "channel_liable": false
+        }
+      ],
+      "taxes_included": false,
+      "test": false,
+      "token": "c07cc210b1e240becb1fe273b7fb5d05",
+      "total_cash_rounding_payment_adjustment_set": {
+        "shop_money": {
+          "amount": "0.00",
+          "currency_code": "INR"
+        },
+        "presentment_money": {
+          "amount": "0.00",
+          "currency_code": "INR"
+        }
+      },
+      "total_cash_rounding_refund_adjustment_set": {
+        "shop_money": {
+          "amount": "0.00",
+          "currency_code": "INR"
+        },
+        "presentment_money": {
+          "amount": "0.00",
+          "currency_code": "INR"
+        }
+      },
+      "total_discounts": "0.00",
+      "total_discounts_set": {
+        "shop_money": {
+          "amount": "0.00",
+          "currency_code": "INR"
+        },
+        "presentment_money": {
+          "amount": "0.00",
+          "currency_code": "INR"
+        }
+      },
+      "total_line_items_price": "190.00",
+      "total_line_items_price_set": {
+        "shop_money": {
+          "amount": "190.00",
+          "currency_code": "INR"
+        },
+        "presentment_money": {
+          "amount": "190.00",
+          "currency_code": "INR"
+        }
+      },
+      "total_outstanding": "0.00",
+      "total_price": "207.10",
+      "total_price_set": {
+        "shop_money": {
+          "amount": "207.10",
+          "currency_code": "INR"
+        },
+        "presentment_money": {
+          "amount": "207.10",
+          "currency_code": "INR"
+        }
+      },
+      "total_shipping_price_set": {
+        "shop_money": {
+          "amount": "0.00",
+          "currency_code": "INR"
+        },
+        "presentment_money": {
+          "amount": "0.00",
+          "currency_code": "INR"
+        }
+      },
+      "total_tax": "17.10",
+      "total_tax_set": {
+        "shop_money": {
+          "amount": "17.10",
+          "currency_code": "INR"
+        },
+        "presentment_money": {
+          "amount": "17.10",
+          "currency_code": "INR"
+        }
+      },
+      "total_tip_received": "0.00",
+      "total_weight": 694,
+      "updated_at": "2025-06-07T12:13:55-04:00",
+      "user_id": 90812219485,
+      "billing_address": null,
+      "customer": null,
+      "discount_applications": [],
+      "fulfillments": [],
+      "line_items": [
+        {
+          "id": 15145446539357,
+          "admin_graphql_api_id": "gid://shopify/LineItem/15145446539357",
+          "attributed_staffs": [],
+          "current_quantity": 1,
+          "fulfillable_quantity": 1,
+          "fulfillment_service": "manual",
+          "fulfillment_status": null,
+          "gift_card": false,
+          "grams": 284,
+          "name": "joggers Pant - 30",
+          "price": "95.00",
+          "price_set": {
+            "shop_money": {
+              "amount": "95.00",
+              "currency_code": "INR"
+            },
+            "presentment_money": {
+              "amount": "95.00",
+              "currency_code": "INR"
+            }
+          },
+          "product_exists": true,
+          "product_id": 7917953056861,
+          "properties": [],
+          "quantity": 1,
+          "requires_shipping": true,
+          "sku": "LVS_DEN_305",
+          "taxable": true,
+          "title": "joggers Pant",
+          "total_discount": "0.00",
+          "total_discount_set": {
+            "shop_money": {
+              "amount": "0.00",
+              "currency_code": "INR"
+            },
+            "presentment_money": {
+              "amount": "0.00",
+              "currency_code": "INR"
+            }
+          },
+          "variant_id": 43445575778397,
+          "variant_inventory_management": "shopify",
+          "variant_title": "30",
+          "vendor": "Levi's",
+          "tax_lines": [
+            {
+              "channel_liable": false,
+              "price": "8.55",
+              "price_set": {
+                "shop_money": {
+                  "amount": "8.55",
+                  "currency_code": "INR"
+                },
+                "presentment_money": {
+                  "amount": "8.55",
+                  "currency_code": "INR"
+                }
+              },
+              "rate": 0.09,
+              "title": "CGST"
+            }
+          ],
+          "duties": [],
+          "discount_allocations": []
+        },
+        {
+          "id": 15145446572125,
+          "admin_graphql_api_id": "gid://shopify/LineItem/15145446572125",
+          "attributed_staffs": [],
+          "current_quantity": 1,
+          "fulfillable_quantity": 1,
+          "fulfillment_service": "manual",
+          "fulfillment_status": null,
+          "gift_card": false,
+          "grams": 410,
+          "name": "joggers Pant - 42",
+          "price": "95.00",
+          "price_set": {
+            "shop_money": {
+              "amount": "95.00",
+              "currency_code": "INR"
+            },
+            "presentment_money": {
+              "amount": "95.00",
+              "currency_code": "INR"
+            }
+          },
+          "product_exists": true,
+          "product_id": 7917953056861,
+          "properties": [],
+          "quantity": 1,
+          "requires_shipping": true,
+          "sku": "LVS_DEN_425",
+          "taxable": true,
+          "title": "joggers Pant",
+          "total_discount": "0.00",
+          "total_discount_set": {
+            "shop_money": {
+              "amount": "0.00",
+              "currency_code": "INR"
+            },
+            "presentment_money": {
+              "amount": "0.00",
+              "currency_code": "INR"
+            }
+          },
+          "variant_id": 43445575843933,
+          "variant_inventory_management": "shopify",
+          "variant_title": "42",
+          "vendor": "Levi's",
+          "tax_lines": [
+            {
+              "channel_liable": false,
+              "price": "8.55",
+              "price_set": {
+                "shop_money": {
+                  "amount": "8.55",
+                  "currency_code": "INR"
+                },
+                "presentment_money": {
+                  "amount": "8.55",
+                  "currency_code": "INR"
+                }
+              },
+              "rate": 0.09,
+              "title": "CGST"
+            }
+          ],
+          "duties": [],
+          "discount_allocations": []
+        }
+      ],
+      "payment_terms": null,
+      "refunds": [],
+      "shipping_address": null,
+      "shipping_lines": []
+    },
+    {
+      "id": 6526116626525,
+      "admin_graphql_api_id": "gid://shopify/Order/6526116626525",
+      "app_id": 1354745,
+      "browser_ip": "103.201.136.56",
+      "buyer_accepts_marketing": true,
+      "cancel_reason": null,
+      "cancelled_at": null,
+      "cart_token": null,
+      "checkout_id": 35518543691869,
+      "checkout_token": "8462efe48024a7561c81aa4a4f096635",
+      "client_details": {
+        "accept_language": null,
+        "browser_height": null,
+        "browser_ip": "103.201.136.56",
+        "browser_width": null,
+        "session_hash": null,
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:139.0) Gecko/20100101 Firefox/139.0"
+      },
+      "closed_at": null,
+      "company": null,
+      "confirmation_number": "8TTFPJWIW",
+      "confirmed": true,
+      "contact_email": "alex@gmail.com",
+      "created_at": "2025-06-06T10:42:49-04:00",
+      "currency": "INR",
+      "current_subtotal_price": "190.00",
+      "current_subtotal_price_set": {
+        "shop_money": {
+          "amount": "190.00",
+          "currency_code": "INR"
+        },
+        "presentment_money": {
+          "amount": "190.00",
+          "currency_code": "INR"
+        }
+      },
+      "current_total_additional_fees_set": null,
+      "current_total_discounts": "0.00",
+      "current_total_discounts_set": {
+        "shop_money": {
+          "amount": "0.00",
+          "currency_code": "INR"
+        },
+        "presentment_money": {
+          "amount": "0.00",
+          "currency_code": "INR"
+        }
+      },
+      "current_total_duties_set": null,
+      "current_total_price": "190.00",
+      "current_total_price_set": {
+        "shop_money": {
+          "amount": "190.00",
+          "currency_code": "INR"
+        },
+        "presentment_money": {
+          "amount": "190.00",
+          "currency_code": "INR"
+        }
+      },
+      "current_total_tax": "0.00",
+      "current_total_tax_set": {
+        "shop_money": {
+          "amount": "0.00",
+          "currency_code": "INR"
+        },
+        "presentment_money": {
+          "amount": "0.00",
+          "currency_code": "INR"
+        }
+      },
+      "customer_locale": "en",
+      "device_id": null,
+      "discount_codes": [],
+      "duties_included": false,
+      "email": "alex@gmail.com",
+      "estimated_taxes": false,
+      "financial_status": "pending",
+      "fulfillment_status": null,
+      "landing_site": null,
+      "landing_site_ref": null,
+      "location_id": null,
+      "merchant_business_entity_id": null,
+      "merchant_of_record_app_id": null,
+      "name": "#1011",
+      "note": null,
+      "note_attributes": [],
+      "number": 11,
+      "order_number": 1011,
+      "order_status_url": "https://techwithpatil.myshopify.com/69385617501/orders/f43233869b52aa8fa817920674116565/authenticate?key=0b24194196b2db573aa4abd9523276ea",
+      "original_total_additional_fees_set": null,
+      "original_total_duties_set": null,
+      "payment_gateway_names": [],
+      "phone": null,
+      "po_number": null,
+      "presentment_currency": "INR",
+      "processed_at": "2025-06-06T10:42:49-04:00",
+      "reference": null,
+      "referring_site": null,
+      "source_identifier": null,
+      "source_name": "shopify_draft_order",
+      "source_url": null,
+      "subtotal_price": "190.00",
+      "subtotal_price_set": {
+        "shop_money": {
+          "amount": "190.00",
+          "currency_code": "INR"
+        },
+        "presentment_money": {
+          "amount": "190.00",
+          "currency_code": "INR"
+        }
+      },
+      "tags": "",
+      "tax_exempt": true,
+      "tax_lines": [],
+      "taxes_included": false,
+      "test": false,
+      "token": "f43233869b52aa8fa817920674116565",
+      "total_cash_rounding_payment_adjustment_set": {
+        "shop_money": {
+          "amount": "0.00",
+          "currency_code": "INR"
+        },
+        "presentment_money": {
+          "amount": "0.00",
+          "currency_code": "INR"
+        }
+      },
+      "total_cash_rounding_refund_adjustment_set": {
+        "shop_money": {
+          "amount": "0.00",
+          "currency_code": "INR"
+        },
+        "presentment_money": {
+          "amount": "0.00",
+          "currency_code": "INR"
+        }
+      },
+      "total_discounts": "0.00",
+      "total_discounts_set": {
+        "shop_money": {
+          "amount": "0.00",
+          "currency_code": "INR"
+        },
+        "presentment_money": {
+          "amount": "0.00",
+          "currency_code": "INR"
+        }
+      },
+      "total_line_items_price": "190.00",
+      "total_line_items_price_set": {
+        "shop_money": {
+          "amount": "190.00",
+          "currency_code": "INR"
+        },
+        "presentment_money": {
+          "amount": "190.00",
+          "currency_code": "INR"
+        }
+      },
+      "total_outstanding": "190.00",
+      "total_price": "190.00",
+      "total_price_set": {
+        "shop_money": {
+          "amount": "190.00",
+          "currency_code": "INR"
+        },
+        "presentment_money": {
+          "amount": "190.00",
+          "currency_code": "INR"
+        }
+      },
+      "total_shipping_price_set": {
+        "shop_money": {
+          "amount": "0.00",
+          "currency_code": "INR"
+        },
+        "presentment_money": {
+          "amount": "0.00",
+          "currency_code": "INR"
+        }
+      },
+      "total_tax": "0.00",
+      "total_tax_set": {
+        "shop_money": {
+          "amount": "0.00",
+          "currency_code": "INR"
+        },
+        "presentment_money": {
+          "amount": "0.00",
+          "currency_code": "INR"
+        }
+      },
+      "total_tip_received": "0.00",
+      "total_weight": 856,
+      "updated_at": "2025-06-06T10:44:39-04:00",
+      "user_id": 90812219485,
+      "billing_address": {
+        "first_name": "alex",
+        "address1": "Akurdi Railway Station Pradhikaran Nigdi",
+        "phone": null,
+        "city": "Pimpri-Chinchwad",
+        "zip": "411044",
+        "province": "Maharashtra",
+        "country": "India",
+        "last_name": "carry",
+        "address2": null,
+        "company": null,
+        "latitude": 18.6485302,
+        "longitude": 73.7646691,
+        "name": "alex carry",
+        "country_code": "IN",
+        "province_code": "MH"
+      },
+      "customer": {
+        "id": 8414714363997,
+        "email": "alex@gmail.com",
+        "created_at": "2025-06-06T10:42:26-04:00",
+        "updated_at": "2025-06-06T10:42:50-04:00",
+        "first_name": "alex",
+        "last_name": "carry",
+        "state": "disabled",
+        "note": null,
+        "verified_email": true,
+        "multipass_identifier": null,
+        "tax_exempt": true,
+        "phone": null,
+        "email_marketing_consent": {
+          "state": "subscribed",
+          "opt_in_level": "single_opt_in",
+          "consent_updated_at": "2025-06-06T10:42:26-04:00"
+        },
+        "sms_marketing_consent": null,
+        "tags": "",
+        "currency": "INR",
+        "tax_exemptions": [],
+        "admin_graphql_api_id": "gid://shopify/Customer/8414714363997",
+        "default_address": {
+          "id": 9255567425629,
+          "customer_id": 8414714363997,
+          "first_name": "alex",
+          "last_name": "carry",
+          "company": "",
+          "address1": "Akurdi Railway Station Pradhikaran Nigdi",
+          "address2": "",
+          "city": "Pimpri-Chinchwad",
+          "province": "Maharashtra",
+          "country": "India",
+          "zip": "411044",
+          "phone": "",
+          "name": "alex carry",
+          "province_code": "MH",
+          "country_code": "IN",
+          "country_name": "India",
+          "default": true
+        }
+      },
+      "discount_applications": [],
+      "fulfillments": [],
+      "line_items": [
+        {
+          "id": 15140936941661,
+          "admin_graphql_api_id": "gid://shopify/LineItem/15140936941661",
+          "attributed_staffs": [],
+          "current_quantity": 1,
+          "fulfillable_quantity": 1,
+          "fulfillment_service": "manual",
+          "fulfillment_status": null,
+          "gift_card": false,
+          "grams": 420,
+          "name": "Denim Jeans - 44",
+          "price": "95.00",
+          "price_set": {
+            "shop_money": {
+              "amount": "95.00",
+              "currency_code": "INR"
+            },
+            "presentment_money": {
+              "amount": "95.00",
+              "currency_code": "INR"
+            }
+          },
+          "product_exists": true,
+          "product_id": 7916707807325,
+          "properties": [],
+          "quantity": 1,
+          "requires_shipping": true,
+          "sku": "LVS_DEN_445",
+          "taxable": true,
+          "title": "Denim Jeans",
+          "total_discount": "0.00",
+          "total_discount_set": {
+            "shop_money": {
+              "amount": "0.00",
+              "currency_code": "INR"
+            },
+            "presentment_money": {
+              "amount": "0.00",
+              "currency_code": "INR"
+            }
+          },
+          "variant_id": 43440309010525,
+          "variant_inventory_management": "shopify",
+          "variant_title": "44",
+          "vendor": "Levi's",
+          "tax_lines": [],
+          "duties": [],
+          "discount_allocations": []
+        },
+        {
+          "id": 15140936974429,
+          "admin_graphql_api_id": "gid://shopify/LineItem/15140936974429",
+          "attributed_staffs": [],
+          "current_quantity": 1,
+          "fulfillable_quantity": 1,
+          "fulfillment_service": "manual",
+          "fulfillment_status": null,
+          "gift_card": false,
+          "grams": 435,
+          "name": "Denim Jeans - 46",
+          "price": "95.00",
+          "price_set": {
+            "shop_money": {
+              "amount": "95.00",
+              "currency_code": "INR"
+            },
+            "presentment_money": {
+              "amount": "95.00",
+              "currency_code": "INR"
+            }
+          },
+          "product_exists": true,
+          "product_id": 7916707807325,
+          "properties": [],
+          "quantity": 1,
+          "requires_shipping": true,
+          "sku": "LVS_DEN_465",
+          "taxable": true,
+          "title": "Denim Jeans",
+          "total_discount": "0.00",
+          "total_discount_set": {
+            "shop_money": {
+              "amount": "0.00",
+              "currency_code": "INR"
+            },
+            "presentment_money": {
+              "amount": "0.00",
+              "currency_code": "INR"
+            }
+          },
+          "variant_id": 43440309043293,
+          "variant_inventory_management": "shopify",
+          "variant_title": "46",
+          "vendor": "Levi's",
+          "tax_lines": [],
+          "duties": [],
+          "discount_allocations": []
+        }
+      ],
+      "payment_terms": {
+        "id": 10994712669,
+        "created_at": "2025-06-06T10:42:49-04:00",
+        "due_in_days": null,
+        "payment_schedules": [],
+        "payment_terms_name": "Due on receipt",
+        "payment_terms_type": "receipt",
+        "updated_at": "2025-06-06T10:42:49-04:00"
+      },
+      "refunds": [],
+      "shipping_address": {
+        "first_name": "alex",
+        "address1": "Akurdi Railway Station Pradhikaran Nigdi",
+        "phone": null,
+        "city": "Pimpri-Chinchwad",
+        "zip": "411044",
+        "province": "Maharashtra",
+        "country": "India",
+        "last_name": "carry",
+        "address2": null,
+        "company": null,
+        "latitude": 18.6485302,
+        "longitude": 73.7646691,
+        "name": "alex carry",
+        "country_code": "IN",
+        "province_code": "MH"
+      },
+      "shipping_lines": []
+    },
+    {
+      "id": 6525960224861,
+      "admin_graphql_api_id": "gid://shopify/Order/6525960224861",
+      "app_id": 1354745,
+      "browser_ip": "103.201.136.56",
+      "buyer_accepts_marketing": true,
+      "cancel_reason": null,
+      "cancelled_at": null,
+      "cart_token": null,
+      "checkout_id": 35517862019165,
+      "checkout_token": "b67945b9fca619d605c3c37b30b2d016",
+      "client_details": {
+        "accept_language": null,
+        "browser_height": null,
+        "browser_ip": "103.201.136.56",
+        "browser_width": null,
+        "session_hash": null,
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:139.0) Gecko/20100101 Firefox/139.0"
+      },
+      "closed_at": null,
+      "company": null,
+      "confirmation_number": "KHD06M78I",
+      "confirmed": true,
+      "contact_email": "dev@gmail.com",
+      "created_at": "2025-06-06T08:46:48-04:00",
+      "currency": "INR",
+      "current_subtotal_price": "95.00",
+      "current_subtotal_price_set": {
+        "shop_money": {
+          "amount": "95.00",
+          "currency_code": "INR"
+        },
+        "presentment_money": {
+          "amount": "95.00",
+          "currency_code": "INR"
+        }
+      },
+      "current_total_additional_fees_set": null,
+      "current_total_discounts": "0.00",
+      "current_total_discounts_set": {
+        "shop_money": {
+          "amount": "0.00",
+          "currency_code": "INR"
+        },
+        "presentment_money": {
+          "amount": "0.00",
+          "currency_code": "INR"
+        }
+      },
+      "current_total_duties_set": null,
+      "current_total_price": "112.10",
+      "current_total_price_set": {
+        "shop_money": {
+          "amount": "112.10",
+          "currency_code": "INR"
+        },
+        "presentment_money": {
+          "amount": "112.10",
+          "currency_code": "INR"
+        }
+      },
+      "current_total_tax": "17.10",
+      "current_total_tax_set": {
+        "shop_money": {
+          "amount": "17.10",
+          "currency_code": "INR"
+        },
+        "presentment_money": {
+          "amount": "17.10",
+          "currency_code": "INR"
+        }
+      },
+      "customer_locale": "en",
+      "device_id": null,
+      "discount_codes": [],
+      "duties_included": false,
+      "email": "dev@gmail.com",
+      "estimated_taxes": false,
+      "financial_status": "pending",
+      "fulfillment_status": null,
+      "landing_site": null,
+      "landing_site_ref": null,
+      "location_id": null,
+      "merchant_business_entity_id": null,
+      "merchant_of_record_app_id": null,
+      "name": "#1010",
+      "note": null,
+      "note_attributes": [],
+      "number": 10,
+      "order_number": 1010,
+      "order_status_url": "https://techwithpatil.myshopify.com/69385617501/orders/a31b8fd0e663dad37d3dac54ef8b90d3/authenticate?key=9f6ee40947216dabdbde228eff36c794",
+      "original_total_additional_fees_set": null,
+      "original_total_duties_set": null,
+      "payment_gateway_names": [],
+      "phone": null,
+      "po_number": null,
+      "presentment_currency": "INR",
+      "processed_at": "2025-06-06T08:46:48-04:00",
+      "reference": null,
+      "referring_site": null,
+      "source_identifier": null,
+      "source_name": "shopify_draft_order",
+      "source_url": null,
+      "subtotal_price": "95.00",
+      "subtotal_price_set": {
+        "shop_money": {
+          "amount": "95.00",
+          "currency_code": "INR"
+        },
+        "presentment_money": {
+          "amount": "95.00",
+          "currency_code": "INR"
+        }
+      },
+      "tags": "",
+      "tax_exempt": false,
+      "tax_lines": [
+        {
+          "price": "17.10",
+          "rate": 0.18,
+          "title": "IGST",
+          "price_set": {
+            "shop_money": {
+              "amount": "17.10",
+              "currency_code": "INR"
+            },
+            "presentment_money": {
+              "amount": "17.10",
+              "currency_code": "INR"
+            }
+          },
+          "channel_liable": false
+        }
+      ],
+      "taxes_included": false,
+      "test": false,
+      "token": "a31b8fd0e663dad37d3dac54ef8b90d3",
+      "total_cash_rounding_payment_adjustment_set": {
+        "shop_money": {
+          "amount": "0.00",
+          "currency_code": "INR"
+        },
+        "presentment_money": {
+          "amount": "0.00",
+          "currency_code": "INR"
+        }
+      },
+      "total_cash_rounding_refund_adjustment_set": {
+        "shop_money": {
+          "amount": "0.00",
+          "currency_code": "INR"
+        },
+        "presentment_money": {
+          "amount": "0.00",
+          "currency_code": "INR"
+        }
+      },
+      "total_discounts": "0.00",
+      "total_discounts_set": {
+        "shop_money": {
+          "amount": "0.00",
+          "currency_code": "INR"
+        },
+        "presentment_money": {
+          "amount": "0.00",
+          "currency_code": "INR"
+        }
+      },
+      "total_line_items_price": "95.00",
+      "total_line_items_price_set": {
+        "shop_money": {
+          "amount": "95.00",
+          "currency_code": "INR"
+        },
+        "presentment_money": {
+          "amount": "95.00",
+          "currency_code": "INR"
+        }
+      },
+      "total_outstanding": "112.10",
+      "total_price": "112.10",
+      "total_price_set": {
+        "shop_money": {
+          "amount": "112.10",
+          "currency_code": "INR"
+        },
+        "presentment_money": {
+          "amount": "112.10",
+          "currency_code": "INR"
+        }
+      },
+      "total_shipping_price_set": {
+        "shop_money": {
+          "amount": "0.00",
+          "currency_code": "INR"
+        },
+        "presentment_money": {
+          "amount": "0.00",
+          "currency_code": "INR"
+        }
+      },
+      "total_tax": "17.10",
+      "total_tax_set": {
+        "shop_money": {
+          "amount": "17.10",
+          "currency_code": "INR"
+        },
+        "presentment_money": {
+          "amount": "17.10",
+          "currency_code": "INR"
+        }
+      },
+      "total_tip_received": "0.00",
+      "total_weight": 436,
+      "updated_at": "2025-06-06T08:48:38-04:00",
+      "user_id": 90812219485,
+      "billing_address": {
+        "first_name": "dev",
+        "address1": "Kalewadi Main Road Jai Hind nagar Thergaon",
+        "phone": "+917484833773",
+        "city": "Pimpri-Chinchwad, Pune",
+        "zip": "411033",
+        "province": "Maharashtra",
+        "country": "India",
+        "last_name": "darwin",
+        "address2": null,
+        "company": null,
+        "latitude": 18.6139618,
+        "longitude": 73.7666464,
+        "name": "dev darwin",
+        "country_code": "IN",
+        "province_code": "MH"
+      },
+      "customer": {
+        "id": 8414498324573,
+        "email": "dev@gmail.com",
+        "created_at": "2025-06-06T08:46:19-04:00",
+        "updated_at": "2025-06-06T08:46:48-04:00",
+        "first_name": "dev",
+        "last_name": "darwin",
+        "state": "disabled",
+        "note": null,
+        "verified_email": true,
+        "multipass_identifier": null,
+        "tax_exempt": false,
+        "phone": null,
+        "email_marketing_consent": {
+          "state": "subscribed",
+          "opt_in_level": "single_opt_in",
+          "consent_updated_at": "2025-06-06T08:46:19-04:00"
+        },
+        "sms_marketing_consent": null,
+        "tags": "",
+        "currency": "INR",
+        "tax_exemptions": [],
+        "admin_graphql_api_id": "gid://shopify/Customer/8414498324573",
+        "default_address": {
+          "id": 9255400210525,
+          "customer_id": 8414498324573,
+          "first_name": "dev",
+          "last_name": "darwin",
+          "company": "",
+          "address1": "Kalewadi Main Road Jai Hind nagar Thergaon",
+          "address2": "",
+          "city": "Pimpri-Chinchwad, Pune",
+          "province": "Maharashtra",
+          "country": "India",
+          "zip": "411033",
+          "phone": "+917484833773",
+          "name": "dev darwin",
+          "province_code": "MH",
+          "country_code": "IN",
+          "country_name": "India",
+          "default": true
+        }
+      },
+      "discount_applications": [],
+      "fulfillments": [],
+      "line_items": [
+        {
+          "id": 15140601200733,
+          "admin_graphql_api_id": "gid://shopify/LineItem/15140601200733",
+          "attributed_staffs": [],
+          "current_quantity": 1,
+          "fulfillable_quantity": 1,
+          "fulfillment_service": "manual",
+          "fulfillment_status": null,
+          "gift_card": false,
+          "grams": 435,
+          "name": "Cargo Pants - 46",
+          "price": "95.00",
+          "price_set": {
+            "shop_money": {
+              "amount": "95.00",
+              "currency_code": "INR"
+            },
+            "presentment_money": {
+              "amount": "95.00",
+              "currency_code": "INR"
+            }
+          },
+          "product_exists": true,
+          "product_id": 7917955350621,
+          "properties": [],
+          "quantity": 1,
+          "requires_shipping": true,
+          "sku": "LVS_DEN_465",
+          "taxable": true,
+          "title": "Cargo Pants",
+          "total_discount": "0.00",
+          "total_discount_set": {
+            "shop_money": {
+              "amount": "0.00",
+              "currency_code": "INR"
+            },
+            "presentment_money": {
+              "amount": "0.00",
+              "currency_code": "INR"
+            }
+          },
+          "variant_id": 43445580595293,
+          "variant_inventory_management": "shopify",
+          "variant_title": "46",
+          "vendor": "Levi's",
+          "tax_lines": [
+            {
+              "channel_liable": false,
+              "price": "17.10",
+              "price_set": {
+                "shop_money": {
+                  "amount": "17.10",
+                  "currency_code": "INR"
+                },
+                "presentment_money": {
+                  "amount": "17.10",
+                  "currency_code": "INR"
+                }
+              },
+              "rate": 0.18,
+              "title": "IGST"
+            }
+          ],
+          "duties": [],
+          "discount_allocations": []
+        }
+      ],
+      "payment_terms": {
+        "id": 10992648285,
+        "created_at": "2025-06-06T08:46:48-04:00",
+        "due_in_days": null,
+        "payment_schedules": [],
+        "payment_terms_name": "Due on receipt",
+        "payment_terms_type": "receipt",
+        "updated_at": "2025-06-06T08:46:48-04:00"
+      },
+      "refunds": [],
+      "shipping_address": {
+        "first_name": "dev",
+        "address1": "Kalewadi Main Road Jai Hind nagar Thergaon",
+        "phone": "+917484833773",
+        "city": "Pimpri-Chinchwad, Pune",
+        "zip": "411033",
+        "province": "Maharashtra",
+        "country": "India",
+        "last_name": "darwin",
+        "address2": null,
+        "company": null,
+        "latitude": 18.6139618,
+        "longitude": 73.7666464,
+        "name": "dev darwin",
+        "country_code": "IN",
+        "province_code": "MH"
+      },
+      "shipping_lines": []
+    },
+    {
+      "id": 6525279404125,
+      "admin_graphql_api_id": "gid://shopify/Order/6525279404125",
+      "app_id": 1354745,
+      "browser_ip": "103.201.136.82",
+      "buyer_accepts_marketing": false,
+      "cancel_reason": null,
+      "cancelled_at": null,
+      "cart_token": null,
+      "checkout_id": 35511839555677,
+      "checkout_token": "e1eaa221ccf1f4f30c24fc637abb6add",
+      "client_details": {
+        "accept_language": null,
+        "browser_height": null,
+        "browser_ip": "103.201.136.82",
+        "browser_width": null,
+        "session_hash": null,
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:139.0) Gecko/20100101 Firefox/139.0"
+      },
+      "closed_at": null,
+      "company": null,
+      "confirmation_number": "RIMY8HZJY",
+      "confirmed": true,
+      "contact_email": "andrew@gmail.com",
+      "created_at": "2025-06-05T22:36:54-04:00",
+      "currency": "INR",
+      "current_subtotal_price": "0.00",
+      "current_subtotal_price_set": {
+        "shop_money": {
+          "amount": "0.00",
+          "currency_code": "INR"
+        },
+        "presentment_money": {
+          "amount": "0.00",
+          "currency_code": "INR"
+        }
+      },
+      "current_total_additional_fees_set": null,
+      "current_total_discounts": "0.00",
+      "current_total_discounts_set": {
+        "shop_money": {
+          "amount": "0.00",
+          "currency_code": "INR"
+        },
+        "presentment_money": {
+          "amount": "0.00",
+          "currency_code": "INR"
+        }
+      },
+      "current_total_duties_set": null,
+      "current_total_price": "0.00",
+      "current_total_price_set": {
+        "shop_money": {
+          "amount": "0.00",
+          "currency_code": "INR"
+        },
+        "presentment_money": {
+          "amount": "0.00",
+          "currency_code": "INR"
+        }
+      },
+      "current_total_tax": "0.00",
+      "current_total_tax_set": {
+        "shop_money": {
+          "amount": "0.00",
+          "currency_code": "INR"
+        },
+        "presentment_money": {
+          "amount": "0.00",
+          "currency_code": "INR"
+        }
+      },
+      "customer_locale": "en",
+      "device_id": null,
+      "discount_codes": [],
+      "duties_included": false,
+      "email": "andrew@gmail.com",
+      "estimated_taxes": false,
+      "financial_status": "refunded",
+      "fulfillment_status": "fulfilled",
+      "landing_site": null,
+      "landing_site_ref": null,
+      "location_id": null,
+      "merchant_business_entity_id": null,
+      "merchant_of_record_app_id": null,
+      "name": "#1009",
+      "note": null,
+      "note_attributes": [],
+      "number": 9,
+      "order_number": 1009,
+      "order_status_url": "https://techwithpatil.myshopify.com/69385617501/orders/91e3861425e20bfa17707f270a177d1a/authenticate?key=6477c4df491d52738a3474731a6bcb5c",
+      "original_total_additional_fees_set": null,
+      "original_total_duties_set": null,
+      "payment_gateway_names": [
+        "manual"
+      ],
+      "phone": null,
+      "po_number": null,
+      "presentment_currency": "INR",
+      "processed_at": "2025-06-05T22:36:53-04:00",
+      "reference": null,
+      "referring_site": null,
+      "source_identifier": null,
+      "source_name": "shopify_draft_order",
+      "source_url": null,
+      "subtotal_price": "95.00",
+      "subtotal_price_set": {
+        "shop_money": {
+          "amount": "95.00",
+          "currency_code": "INR"
+        },
+        "presentment_money": {
+          "amount": "95.00",
+          "currency_code": "INR"
+        }
+      },
+      "tags": "",
+      "tax_exempt": false,
+      "tax_lines": [
+        {
+          "price": "17.10",
+          "rate": 0.18,
+          "title": "IGST",
+          "price_set": {
+            "shop_money": {
+              "amount": "17.10",
+              "currency_code": "INR"
+            },
+            "presentment_money": {
+              "amount": "17.10",
+              "currency_code": "INR"
+            }
+          },
+          "channel_liable": false
+        }
+      ],
+      "taxes_included": false,
+      "test": false,
+      "token": "91e3861425e20bfa17707f270a177d1a",
+      "total_cash_rounding_payment_adjustment_set": {
+        "shop_money": {
+          "amount": "0.00",
+          "currency_code": "INR"
+        },
+        "presentment_money": {
+          "amount": "0.00",
+          "currency_code": "INR"
+        }
+      },
+      "total_cash_rounding_refund_adjustment_set": {
+        "shop_money": {
+          "amount": "0.00",
+          "currency_code": "INR"
+        },
+        "presentment_money": {
+          "amount": "0.00",
+          "currency_code": "INR"
+        }
+      },
+      "total_discounts": "0.00",
+      "total_discounts_set": {
+        "shop_money": {
+          "amount": "0.00",
+          "currency_code": "INR"
+        },
+        "presentment_money": {
+          "amount": "0.00",
+          "currency_code": "INR"
+        }
+      },
+      "total_line_items_price": "95.00",
+      "total_line_items_price_set": {
+        "shop_money": {
+          "amount": "95.00",
+          "currency_code": "INR"
+        },
+        "presentment_money": {
+          "amount": "95.00",
+          "currency_code": "INR"
+        }
+      },
+      "total_outstanding": "0.00",
+      "total_price": "112.10",
+      "total_price_set": {
+        "shop_money": {
+          "amount": "112.10",
+          "currency_code": "INR"
+        },
+        "presentment_money": {
+          "amount": "112.10",
+          "currency_code": "INR"
+        }
+      },
+      "total_shipping_price_set": {
+        "shop_money": {
+          "amount": "0.00",
+          "currency_code": "INR"
+        },
+        "presentment_money": {
+          "amount": "0.00",
+          "currency_code": "INR"
+        }
+      },
+      "total_tax": "17.10",
+      "total_tax_set": {
+        "shop_money": {
+          "amount": "17.10",
+          "currency_code": "INR"
+        },
+        "presentment_money": {
+          "amount": "17.10",
+          "currency_code": "INR"
+        }
+      },
+      "total_tip_received": "0.00",
+      "total_weight": 435,
+      "updated_at": "2025-06-05T22:48:39-04:00",
+      "user_id": 90812219485,
+      "billing_address": {
+        "first_name": "andrew",
+        "address1": "",
+        "phone": null,
+        "city": "Pune",
+        "zip": "411015",
+        "province": "Maharashtra",
+        "country": "India",
+        "last_name": "letz",
+        "address2": null,
+        "company": null,
+        "latitude": 18.5817759,
+        "longitude": 73.8824002,
+        "name": "andrew letz",
+        "country_code": "IN",
+        "province_code": "MH"
+      },
+      "customer": {
+        "id": 8413634527325,
+        "email": "andrew@gmail.com",
+        "created_at": "2025-06-05T22:36:19-04:00",
+        "updated_at": "2025-06-05T22:36:54-04:00",
+        "first_name": "andrew",
+        "last_name": "letz",
+        "state": "disabled",
+        "note": null,
+        "verified_email": true,
+        "multipass_identifier": null,
+        "tax_exempt": false,
+        "phone": null,
+        "email_marketing_consent": {
+          "state": "not_subscribed",
+          "opt_in_level": "single_opt_in",
+          "consent_updated_at": null
+        },
+        "sms_marketing_consent": null,
+        "tags": "",
+        "currency": "INR",
+        "tax_exemptions": [],
+        "admin_graphql_api_id": "gid://shopify/Customer/8413634527325",
+        "default_address": {
+          "id": 9254728433757,
+          "customer_id": 8413634527325,
+          "first_name": "andrew",
+          "last_name": "letz",
+          "company": "",
+          "address1": "",
+          "address2": "",
+          "city": "Pune",
+          "province": "Maharashtra",
+          "country": "India",
+          "zip": "411015",
+          "phone": "",
+          "name": "andrew letz",
+          "province_code": "MH",
+          "country_code": "IN",
+          "country_name": "India",
+          "default": true
+        }
+      },
+      "discount_applications": [],
+      "fulfillments": [
+        {
+          "id": 5989270814813,
+          "admin_graphql_api_id": "gid://shopify/Fulfillment/5989270814813",
+          "created_at": "2025-06-05T22:37:38-04:00",
+          "location_id": 77556809821,
+          "name": "#1009.1",
+          "order_id": 6525279404125,
+          "origin_address": {
+
+          },
+          "receipt": {
+
+          },
+          "service": "manual",
+          "shipment_status": null,
+          "status": "success",
+          "tracking_company": "Amazon Logistics",
+          "tracking_number": "454333333344",
+          "tracking_numbers": [
+            "454333333344"
+          ],
+          "tracking_url": "https://track.amazon.com/tracking/454333333344",
+          "tracking_urls": [
+            "https://track.amazon.com/tracking/454333333344"
+          ],
+          "updated_at": "2025-06-05T22:37:38-04:00",
+          "line_items": [
+            {
+              "id": 15139191095389,
+              "admin_graphql_api_id": "gid://shopify/LineItem/15139191095389",
+              "attributed_staffs": [],
+              "current_quantity": 0,
+              "fulfillable_quantity": 0,
+              "fulfillment_service": "manual",
+              "fulfillment_status": "fulfilled",
+              "gift_card": false,
+              "grams": 435,
+              "name": "Cargo Pants - 46",
+              "price": "95.00",
+              "price_set": {
+                "shop_money": {
+                  "amount": "95.00",
+                  "currency_code": "INR"
+                },
+                "presentment_money": {
+                  "amount": "95.00",
+                  "currency_code": "INR"
+                }
+              },
+              "product_exists": true,
+              "product_id": 7917955350621,
+              "properties": [],
+              "quantity": 1,
+              "requires_shipping": true,
+              "sku": "LVS_DEN_465",
+              "taxable": true,
+              "title": "Cargo Pants",
+              "total_discount": "0.00",
+              "total_discount_set": {
+                "shop_money": {
+                  "amount": "0.00",
+                  "currency_code": "INR"
+                },
+                "presentment_money": {
+                  "amount": "0.00",
+                  "currency_code": "INR"
+                }
+              },
+              "variant_id": 43445580595293,
+              "variant_inventory_management": "shopify",
+              "variant_title": "46",
+              "vendor": "Levi's",
+              "tax_lines": [
+                {
+                  "channel_liable": false,
+                  "price": "17.10",
+                  "price_set": {
+                    "shop_money": {
+                      "amount": "17.10",
+                      "currency_code": "INR"
+                    },
+                    "presentment_money": {
+                      "amount": "17.10",
+                      "currency_code": "INR"
+                    }
+                  },
+                  "rate": 0.18,
+                  "title": "IGST"
+                }
+              ],
+              "duties": [],
+              "discount_allocations": []
+            }
+          ]
+        }
+      ],
+      "line_items": [
+        {
+          "id": 15139191095389,
+          "admin_graphql_api_id": "gid://shopify/LineItem/15139191095389",
+          "attributed_staffs": [],
+          "current_quantity": 0,
+          "fulfillable_quantity": 0,
+          "fulfillment_service": "manual",
+          "fulfillment_status": "fulfilled",
+          "gift_card": false,
+          "grams": 435,
+          "name": "Cargo Pants - 46",
+          "price": "95.00",
+          "price_set": {
+            "shop_money": {
+              "amount": "95.00",
+              "currency_code": "INR"
+            },
+            "presentment_money": {
+              "amount": "95.00",
+              "currency_code": "INR"
+            }
+          },
+          "product_exists": true,
+          "product_id": 7917955350621,
+          "properties": [],
+          "quantity": 1,
+          "requires_shipping": true,
+          "sku": "LVS_DEN_465",
+          "taxable": true,
+          "title": "Cargo Pants",
+          "total_discount": "0.00",
+          "total_discount_set": {
+            "shop_money": {
+              "amount": "0.00",
+              "currency_code": "INR"
+            },
+            "presentment_money": {
+              "amount": "0.00",
+              "currency_code": "INR"
+            }
+          },
+          "variant_id": 43445580595293,
+          "variant_inventory_management": "shopify",
+          "variant_title": "46",
+          "vendor": "Levi's",
+          "tax_lines": [
+            {
+              "channel_liable": false,
+              "price": "17.10",
+              "price_set": {
+                "shop_money": {
+                  "amount": "17.10",
+                  "currency_code": "INR"
+                },
+                "presentment_money": {
+                  "amount": "17.10",
+                  "currency_code": "INR"
+                }
+              },
+              "rate": 0.18,
+              "title": "IGST"
+            }
+          ],
+          "duties": [],
+          "discount_allocations": []
+        }
+      ],
+      "payment_terms": null,
+      "refunds": [
+        {
+          "id": 934285344861,
+          "admin_graphql_api_id": "gid://shopify/Refund/934285344861",
+          "created_at": "2025-06-05T22:47:39-04:00",
+          "note": null,
+          "order_id": 6525279404125,
+          "processed_at": "2025-06-05T22:47:39-04:00",
+          "restock": true,
+          "total_duties_set": {
+            "shop_money": {
+              "amount": "0.00",
+              "currency_code": "INR"
+            },
+            "presentment_money": {
+              "amount": "0.00",
+              "currency_code": "INR"
+            }
+          },
+          "user_id": 90812219485,
+          "order_adjustments": [],
+          "transactions": [
+            {
+              "id": 8233600188509,
+              "admin_graphql_api_id": "gid://shopify/OrderTransaction/8233600188509",
+              "amount": "112.10",
+              "authorization": null,
+              "created_at": "2025-06-05T22:47:39-04:00",
+              "currency": "INR",
+              "device_id": null,
+              "error_code": null,
+              "gateway": "manual",
+              "kind": "refund",
+              "location_id": null,
+              "message": "Refunded 112.10 INR from manual gateway",
+              "order_id": 6525279404125,
+              "parent_id": 8233584754781,
+              "payment_id": "#1009.2",
+              "processed_at": "2025-06-05T22:47:39-04:00",
+              "receipt": {
+
+              },
+              "source_name": "1830279",
+              "status": "success",
+              "test": false,
+              "user_id": null
+            }
+          ],
+          "refund_line_items": [
+            {
+              "id": 478245912669,
+              "line_item_id": 15139191095389,
+              "location_id": 77556809821,
+              "quantity": 1,
+              "restock_type": "return",
+              "subtotal": 95,
+              "subtotal_set": {
+                "shop_money": {
+                  "amount": "95.00",
+                  "currency_code": "INR"
+                },
+                "presentment_money": {
+                  "amount": "95.00",
+                  "currency_code": "INR"
+                }
+              },
+              "total_tax": 17.1,
+              "total_tax_set": {
+                "shop_money": {
+                  "amount": "17.10",
+                  "currency_code": "INR"
+                },
+                "presentment_money": {
+                  "amount": "17.10",
+                  "currency_code": "INR"
+                }
+              },
+              "line_item": {
+                "id": 15139191095389,
+                "admin_graphql_api_id": "gid://shopify/LineItem/15139191095389",
+                "attributed_staffs": [],
+                "current_quantity": 0,
+                "fulfillable_quantity": 0,
+                "fulfillment_service": "manual",
+                "fulfillment_status": "fulfilled",
+                "gift_card": false,
+                "grams": 435,
+                "name": "Cargo Pants - 46",
+                "price": "95.00",
+                "price_set": {
+                  "shop_money": {
+                    "amount": "95.00",
+                    "currency_code": "INR"
+                  },
+                  "presentment_money": {
+                    "amount": "95.00",
+                    "currency_code": "INR"
+                  }
+                },
+                "product_exists": true,
+                "product_id": 7917955350621,
+                "properties": [],
+                "quantity": 1,
+                "requires_shipping": true,
+                "sku": "LVS_DEN_465",
+                "taxable": true,
+                "title": "Cargo Pants",
+                "total_discount": "0.00",
+                "total_discount_set": {
+                  "shop_money": {
+                    "amount": "0.00",
+                    "currency_code": "INR"
+                  },
+                  "presentment_money": {
+                    "amount": "0.00",
+                    "currency_code": "INR"
+                  }
+                },
+                "variant_id": 43445580595293,
+                "variant_inventory_management": "shopify",
+                "variant_title": "46",
+                "vendor": "Levi's",
+                "tax_lines": [
+                  {
+                    "channel_liable": false,
+                    "price": "17.10",
+                    "price_set": {
+                      "shop_money": {
+                        "amount": "17.10",
+                        "currency_code": "INR"
+                      },
+                      "presentment_money": {
+                        "amount": "17.10",
+                        "currency_code": "INR"
+                      }
+                    },
+                    "rate": 0.18,
+                    "title": "IGST"
+                  }
+                ],
+                "duties": [],
+                "discount_allocations": []
+              }
+            }
+          ],
+          "duties": []
+        }
+      ],
+      "shipping_address": {
+        "first_name": "andrew",
+        "address1": "",
+        "phone": null,
+        "city": "Pune",
+        "zip": "411015",
+        "province": "Maharashtra",
+        "country": "India",
+        "last_name": "letz",
+        "address2": null,
+        "company": null,
+        "latitude": 18.5817759,
+        "longitude": 73.8824002,
+        "name": "andrew letz",
+        "country_code": "IN",
+        "province_code": "MH"
+      },
+      "shipping_lines": []
+    }
+  ]
+}
