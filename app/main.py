@@ -1,11 +1,9 @@
 import time
-from fastapi import FastAPI, Request, Response, HTTPException
+from fastapi import FastAPI, Request, Response
 from starlette.middleware.base import BaseHTTPMiddleware
 from prometheus_client import generate_latest, CONTENT_TYPE_LATEST
 
 from .metrics import HTTP_REQUESTS_TOTAL, HTTP_REQUEST_DURATION
-from .shopify import fetch_orders, fetch_order_by_id
-
 
 # Create FastAPI app
 app = FastAPI()
@@ -44,18 +42,9 @@ app.add_middleware(PrometheusMiddleware)
 
 
 # --- ROUTES ---
-@app.get("/orders")
-async def get_shopify_orders():
-    return await fetch_orders()
-
-
-@app.get("/orders/{order_id}")
-async def get_shopify_order(order_id: int):
-    order = await fetch_order_by_id(order_id)
-    if order:
-        return order
-    else:
-        raise HTTPException(status_code=404, detail="Order not found")
+@app.get("/")
+def root():
+    return {"message": "App is running!"}
 
 
 @app.get("/metrics")
