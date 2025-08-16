@@ -1,72 +1,41 @@
-import httpx
-import time
-from .config import SHOPIFY_STORE_DOMAIN, SHOPIFY_ACCESS_TOKEN
 from .metrics import (
     SHOPIFY_ORDER_FETCH_COUNT,
     SHOPIFY_ORDER_FETCH_DURATION,
     SHOPIFY_ORDER_TOTAL_RETURNED,
     SHOPIFY_ORDER_REVENUE_INR,
     SHOPIFY_ORDER_LAST_SUCCESS_TS,
+    TOTAL_VALID_REQUEST,
+    TOTAL_SUCCESSFUL_REQUEST,
+    SUCCESSFUL_RESPONSE_PERCENT,
+    SLO_TARGET_PERCENT,
+    ERROR_BUDGET_ALLOCATED,
+    ERROR_BUDGET_USED,
+    ERROR_BUDGET_LEFT,
 )
 
-API_VERSION = "2024-04"
-BASE_URL = f"https://{SHOPIFY_STORE_DOMAIN}/admin/api/{API_VERSION}"
+# configure your SLO target (example: 99.9% for 30 days)
+SLO_TARGET = 99.9  
 
-headers = {
-    "X-Shopify-Access-Token": SHOPIFY_ACCESS_TOKEN,
-    "Content-Type": "application/json"
-}
+def update_business_sli(success: bool):
+    """Helper to update business-level SLI & error budget usage"""
+    TOTAL_VALID_REQUEST.inc()
+    if success:
+        TOTAL_SUCCESSFUL_REQUEST.inc()
 
-async def fetch_orders():
-    url = f"{BASE_URL}/orders.json"
-    start_time = time.time()
+    # Calculate success percentage
+    valid = TOTAL_VALID_REQUEST._value.get()
+    successful = TOTAL_SUCCESSFUL_REQUEST._value.get()
+    if valid > 0:
+        success_pct = (successful / valid) * 100
+        SUCCESSFUL_RESPONSE_PERCENT.set(success_pct)
+        SLO_TARGET_PERCENT.set(SLO_TARGET)
 
-    async with httpx.AsyncClient() as client:
-        try:
-            response = await client.get(url, headers=headers)
-            duration = time.time() - start_time
-            SHOPIFY_ORDER_FETCH_DURATION.observe(duration)
+        # Error budget (per 30 days)
+        # For 99.9%, allowed errors = 0.1% of total
+        budget_allocated = valid * (100 - SLO_TARGET) / 100
+        budget_used = valid - successful
+        budget_left = max(budget_allocated - budget_used, 0)
 
-            if response.status_code == 200:
-                SHOPIFY_ORDER_FETCH_COUNT.labels(status="success").inc()
-
-                data = response.json()
-                orders = data.get("orders", [])
-
-                # Metrics update
-                SHOPIFY_ORDER_TOTAL_RETURNED.set(len(orders))
-                SHOPIFY_ORDER_LAST_SUCCESS_TS.set(time.time())
-
-                total_revenue = sum(float(order.get("total_price", 0)) for order in orders)
-                SHOPIFY_ORDER_REVENUE_INR.inc(total_revenue)
-
-                return data
-            else:
-                SHOPIFY_ORDER_FETCH_COUNT.labels(status="error").inc()
-                return {"error": f"Failed with status {response.status_code}"}
-        except Exception as e:
-            SHOPIFY_ORDER_FETCH_COUNT.labels(status="exception").inc()
-            return {"error": str(e)}
-
-async def fetch_order_by_id(order_id: int):
-    url = f"{BASE_URL}/orders/{order_id}.json"
-    start_time = time.time()
-
-    async with httpx.AsyncClient() as client:
-        try:
-            response = await client.get(url, headers=headers)
-            duration = time.time() - start_time
-            SHOPIFY_ORDER_FETCH_DURATION.observe(duration)
-
-            if response.status_code == 200:
-                SHOPIFY_ORDER_FETCH_COUNT.labels(status="success").inc()
-                return response.json()
-            elif response.status_code == 404:
-                SHOPIFY_ORDER_FETCH_COUNT.labels(status="not_found").inc()
-                return None
-            else:
-                SHOPIFY_ORDER_FETCH_COUNT.labels(status="error").inc()
-                return {"error": f"Failed with status {response.status_code}"}
-        except Exception as e:
-            SHOPIFY_ORDER_FETCH_COUNT.labels(status="exception").inc()
-            return {"error": str(e)}
+        ERROR_BUDGET_ALLOCATED.set(budget_allocated)
+        ERROR_BUDGET_USED.set(budget_used)
+        ERROR_BUDGET_LEFT.set(budget_left)

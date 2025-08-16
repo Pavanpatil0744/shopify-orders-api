@@ -1,24 +1,22 @@
-from fastapi import FastAPI, Response, HTTPException
-from prometheus_client import generate_latest, CONTENT_TYPE_LATEST
-from .shopify import fetch_orders, fetch_order_by_id
-from .metrics import SHOPIFY_ORDER_FETCH_COUNT
+import time
+from fastapi import Request
 
-app = FastAPI()
+from .metrics import HTTP_REQUESTS_TOTAL, HTTP_REQUEST_DURATION
 
-@app.get("/orders")
-async def get_shopify_orders():
-    return await fetch_orders()
+@app.middleware("http")
+async def prometheus_http_middleware(request: Request, call_next):
+    start_time = time.time()
+    response = await call_next(request)
+    duration = time.time() - start_time
 
-@app.get("/orders/{order_id}")
-async def get_shopify_order(order_id: int):
-    order = await fetch_order_by_id(order_id)
-    if order:
-        SHOPIFY_ORDER_FETCH_COUNT.labels(status="success").inc()
-        return order
-    else:
-        SHOPIFY_ORDER_FETCH_COUNT.labels(status="not_found").inc()
-        raise HTTPException(status_code=404, detail="Order not found")
-    
-@app.get("/metrics")
-def metrics():
-    return Response(generate_latest(), media_type=CONTENT_TYPE_LATEST)
+    endpoint = request.url.path
+    method = request.method
+    status = str(response.status_code)
+
+    # Track request count
+    HTTP_REQUESTS_TOTAL.labels(method=method, endpoint=endpoint, status=status).inc()
+
+    # Track latency
+    HTTP_REQUEST_DURATION.labels(endpoint=endpoint).observe(duration)
+
+    return response
