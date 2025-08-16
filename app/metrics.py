@@ -38,9 +38,10 @@ HTTP_REQUESTS_TOTAL = Counter(
 HTTP_REQUEST_DURATION = Histogram(
     "http_request_duration_seconds",
     "Duration of HTTP requests in seconds",
-    ["endpoint"],
+    ["method", "endpoint", "status"],
     buckets=[0.1, 0.3, 0.5, 1, 2, 5]
 )
+
 
 # --- Business SLO metrics ---
 TOTAL_VALID_REQUEST = Counter(
